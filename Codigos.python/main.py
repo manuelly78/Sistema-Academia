@@ -1,10 +1,5 @@
 import tkinter as tk
 from tkinter import messagebox
-try:
-    from PIL import Image, ImageTk
-except Exception:
-    Image = None
-    ImageTk = None
 import os
 
 class LoginScreen:
@@ -19,9 +14,10 @@ class LoginScreen:
         
         # Cores
         self.cor_primaria = "#1e3a8a"
-        self.cor_secundaria = "#3b82f6"
+        self.cor_secundaria = "#124ca8"
         self.cor_texto = "#ffffff"
         self.cor_fundo = "#f3f4f6"
+        
         
         # Criar interface
         self.create_ui()
