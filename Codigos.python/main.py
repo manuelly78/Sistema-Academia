@@ -16,7 +16,7 @@ class LoginScreen:
         self.cor_primaria = "#1e3a8a"
         self.cor_secundaria = "#124ca8"
         self.cor_texto = "#ffffff"
-        self.cor_fundo = "#f3f4f6"
+        self.cor_fundo = "#0F1117"
         
         
         # Criar interface
